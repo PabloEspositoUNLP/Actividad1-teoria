@@ -1,0 +1,107 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+
+ 
+}
+
+/* Estilos para el h1 */
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 24px;
+    }
+h2 {
+    color: blue;
+    text-align: center;
+    font-size: 24px;
+    }
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hidden-checkbox {
+    display: none;
+}
+
+.categorias-label {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.categorias-menu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categorias-menu li {
+    padding: 10px;
+}
+
+.categorias-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/* Estilos para las secciones de imágenes */
+.categoria {
+    display: none;
+}
+
+.categoria h2 {
+    font-size: 24px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 300px;
+    margin: 10px;
+    border: 2px solid #333;
+    padding: 10px;
+}
+
